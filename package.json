@@ -19,8 +19,7 @@
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "gulp": "^3.9.0",
-    "gulp-postcss": "^5.1.10",
-    "postcss-simple-vars": "^0.3.0"
+    "gulp-postcss": "^5.1.10"    
   },
   "dependencies": {
     "open": "0.0.5",
