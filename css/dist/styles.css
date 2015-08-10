@@ -1,0 +1,52 @@
+body {
+    background: tomato;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.hero {
+    height: 100vh;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+            transition: .3s;
+    -webkit-animation: .3s impress-me both;
+            animation: .3s impress-me both;
+}
+
+@-webkit-keyframes impress-me {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+@keyframes impress-me {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+
+.footer {
+    font-size: 12px;
+    background: black;
+    color:#fff;
+}

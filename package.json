@@ -1,0 +1,29 @@
+{
+  "name": "About-PostCSS",
+  "version": "1.0.0",
+  "description": "Internal tech talk to Red Ant Devs about Post CSS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fitz0019/About-PostCSS.git"
+  },
+  "author": "Richard Fitzjohn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fitz0019/About-PostCSS/issues"
+  },
+  "homepage": "https://github.com/fitz0019/About-PostCSS",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^5.1.10",
+    "postcss-simple-vars": "^0.3.0"
+  },
+  "dependencies": {
+    "open": "0.0.5",
+    "postcss": "^4.1.16"
+  }
+}
